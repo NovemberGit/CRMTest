@@ -28,12 +28,12 @@ public class LoginPage extends TestBase{
 		@FindBy(xpath="//a[contains(text(),'Sign Up')]")
 		WebElement signUpBtn;
 		
-		//@FindBy(xpath="//font[contains(text(),'crm')]")
-		@FindBy(xpath="//a[@class='navbar-brand']//img[@class='img-responsive']")
+		@FindBy(xpath="//font[contains(text(),'crm')]")
+		//@FindBy(xpath="//a[@class='navbar-brand']//img[@class='img-responsive']")
 		WebElement crmLogo;
 		
-		//@FindBy(xpath = "//span[contains(text(),'Log In')]")
-		@FindBy(xpath = "//a[contains(text(),'Login')]")
+		@FindBy(xpath = "//span[contains(text(),'Log In')]")
+		//@FindBy(xpath = "//a[contains(text(),'Login')]")
 		WebElement loginButton;
 		
 		
